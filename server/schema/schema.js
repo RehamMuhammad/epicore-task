@@ -1,7 +1,12 @@
-// I build a very basic schema to avoid graphQl error (Middlware options must contain a schema)
-
 const graphql = require('graphql');
 
-const {GraphQLObjectType} = graphql;
+const {GraphQLObjectType, GraphQLString} = graphql;
 
 
+const featureType = new GraphQLObjectType ({
+    name: 'Feature',
+    fields: () => ({
+        id:{type:GraphQLString },
+        name:{trpe:GraphQLString}
+    })
+});
