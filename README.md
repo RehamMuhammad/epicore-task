@@ -39,6 +39,6 @@ Transition to login page:
 Testing:
     I used jest testing library for my tests.
     I tested if the email element renders correctly through its placeholder attribute.
-    To test the transition has done correctly after clicking the login button I checked the number of buttons before and after onClick event
+    To test the transition has been done correctly after clicking the login button I checked the number of buttons before and after onClick event
 
 ======================
