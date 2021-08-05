@@ -24,21 +24,21 @@ It's so easy to install the front end (React App):
 ======================
 
 UI implementation:
-    I've developed 6 function components and imported them into react app.
-    I divded them for reusability and to make it easy to style and debugging the.
+    I've developed 6 function components and imported them into App component.
+    I divded them for reusability and also to make it easy to style and debugging the.
     for styling each component has its css module.
 
 ======================
 
 Transition to login page:
     I used useState Hook to hide the elements of first page and show the elements of the login page.
-    the transition rerender the create component only for better performance.
+    the transition rerenders the create component only for better performance.
 
 ======================
 
 Testing:
     I used jest testing library for my tests.
     I tested if the email element renders correctly through its placeholder attribute.
-    To test the transition has done correctly after clicking the login button I checked the number of buttons before and after onClick event
+    To test the transition has been done correctly after clicking the login button I checked the number of buttons before and after onClick event
 
 ======================

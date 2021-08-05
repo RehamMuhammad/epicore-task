@@ -7,6 +7,6 @@ const featureType = new GraphQLObjectType ({
     name: 'Feature',
     fields: () => ({
         id:{type:GraphQLString },
-        name:{trpe:GraphQLString}
+        name:{type:GraphQLString}
     })
 });
